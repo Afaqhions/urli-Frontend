@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Brand */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">Shortly</h2>
+          <h2 className="text-2xl font-bold mb-4">Urli</h2>
           <p className="text-sm">
             Effortless and reliable URL shortening. Built with ❤️ using the MERN stack.
           </p>
