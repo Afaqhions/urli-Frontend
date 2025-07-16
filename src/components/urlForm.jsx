@@ -15,7 +15,7 @@ const UrlForm = () => {
 
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:5000/api/create', { url: longUrl });
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/create`, { url: longUrl });
 
       // Backend now returns the full URL
       setShortUrl(response.data.short_url);
